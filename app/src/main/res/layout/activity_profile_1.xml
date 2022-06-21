@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".profile_1"
+    android:background="@color/white"
+    android:layout_gravity="center">
+
+    <include
+        android:id="@+id/profile_toolbar_2"
+        layout="@layout/toolbar_layout"/>
+
+    <include
+        android:id="@+id/profile_toolbar_underline_id"
+        layout="@layout/toolbar_underline"
+        android:layout_height="2dp"
+        android:layout_width="match_parent"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/msg_profile_pic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/profile_1_ic"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unknown"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="15sp"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="MESSAGE"
+        android:background="@drawable/msg_btn_design"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="20dp">
+
+        //country
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/country_ic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="INDIA"
+                android:textSize="24sp"
+                android:layout_marginLeft="16dp"/>
+
+        </LinearLayout>
+
+        //country
+        //City
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/city_ic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="belgaum"
+                android:textSize="24sp"
+                android:layout_marginLeft="16dp"/>
+
+        </LinearLayout>
+
+        //City
+
+        //address
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/address_ic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="belgaum"
+                android:textSize="24sp"
+                android:layout_marginLeft="16dp"/>
+
+        </LinearLayout>
+
+        //address
+
+        //Mail
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/mail_ic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="mail@mail.com"
+                android:textSize="24sp"
+                android:layout_marginLeft="16dp"/>
+
+        </LinearLayout>
+
+        //Mail
+
+    </LinearLayout>
+
+</LinearLayout>

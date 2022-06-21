@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Renters</string>
+    <string name="loginDesc">Buy, Sell or Rent your Property \n
+from Certified Sellers to Genuine Buyers.</string>
+    <string name="Close">Close</string>
+    <string name="Open">Open</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

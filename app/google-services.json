@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "885449209527",
+    "firebase_url": "https://renters-79971.firebaseio.com",
+    "project_id": "renters-79971",
+    "storage_bucket": "renters-79971.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885449209527:android:77848228e1b473ba01ff32",
+        "android_client_info": {
+          "package_name": "com.unknownprogrammer.renters"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885449209527-cclocf29ftp7v13tlhsocivprtrqj1rk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.unknownprogrammer.renters",
+            "certificate_hash": "faba194828d5e8b471d137baa38878700a748c4c"
+          }
+        },
+        {
+          "client_id": "885449209527-q8c3dagb4mft3nqkane5t150dohpsg9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvvIzeppIa3ZO08X28lgAUsd6JZIzm3Xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885449209527-q8c3dagb4mft3nqkane5t150dohpsg9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
